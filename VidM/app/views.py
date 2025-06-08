@@ -5,7 +5,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render,redirect
 from django.urls import reverse
 from .models import LikeDislike, Notification, PostLikeDislike, Posts, Profile,Videos,Comment, WatchHistory
-from .form import CommentForm, ProfileForm, VideoUploadForm,RegisterForm
+from .form import CommentForm, ProfileForm
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth import login,logout,authenticate

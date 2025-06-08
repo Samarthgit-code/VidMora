@@ -1,4 +1,4 @@
-from ...app.models import Notification  # Import your Notification model properly
+from app.models import Notification  # Import your Notification model properly
 
 def notification_badge(request):
     if request.user.is_authenticated:
