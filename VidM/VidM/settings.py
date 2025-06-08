@@ -25,7 +25,9 @@ SECRET_KEY = "django-insecure-c7s#_nqro(6m7=b7antf_3qe6d77&y8^xaxwk(k0=ar@cw@6t-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['*']
+
+CSRF_TRUSTED_ORIGINS = ["https://vidmora-2.onrender.com"]
 
 
 # Application definition
