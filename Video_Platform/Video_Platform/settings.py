@@ -17,8 +17,7 @@ import os
 import dj_database_url
 
 
-Key: DATABASE_URL
-Value: postgresql://vidmora_f2z4_user:h8bM4VKzDixMJhnshbKt27av6dXmr6hD@dpg-d12sdqbipnbc73bbftsg-a/vidmora_f2z4
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
