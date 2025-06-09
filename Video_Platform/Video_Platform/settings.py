@@ -47,7 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app'
+    'app',
+    'cloudinary', 
+    'cloudinary_storage'
 ]
 
 MIDDLEWARE = [
@@ -62,6 +64,15 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Video_Platform.urls'
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'Root',
+    'API_KEY': '381782612231443',
+    'API_SECRET': '4oNVjTD0lq3SvyW0sakuxNXXBXQ'
+}
 
 TEMPLATES = [
     {
